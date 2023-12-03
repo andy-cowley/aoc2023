@@ -172,8 +172,7 @@ func partB(gears []symbol) int {
 }
 
 func main() {
-	// partA, gearList, _ := partA("data.txt")
-	partA, gearList, _ := partA("test-data-site.txt")
+	partA, gearList, _ := partA("data.txt")
 	partB := partB(gearList)
 
 	fmt.Printf("Part A: %v\n", partA)
